@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Research Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 2em auto;
+            overflow: hidden;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        h2 {
+            color: #333;
+        }
+        .project-card {
+            background-color: #fff;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2em;
+        }
+        .project-card h3 {
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My GitHub Research Portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my GitHub Research Portfolio. Here, you can find an overview of my research projects and contributions.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project 1: Title of Project</h3>
+            <p>Description of project. This is a brief overview of what the project does and its significance.</p>
+            <a href="https://github.com/Nia9-4/website" target="_blank">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Project 2: Title of Project</h3>
+            <p>Description of project. This is a brief overview of what the project does and its significance.</p>
+            <a href="https://github.com/Nia9-4/website" target="_blank">View on GitHub</a>
+        </div>
+
+        <!-- Add more project cards as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or would like to collaborate, please feel free to reach out:</p>
+        <p>Email: areul@uos.de</p>
+        <p>GitHub: <a href="https://github.com/Nia9-4" target="_blank">Nia9-4</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 Antonia Reul. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
