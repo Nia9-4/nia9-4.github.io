@@ -66,17 +66,34 @@
 </head>
 <body>
 
-<header>
-    <h1>Antonia Reul</h1>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<header class="site-header">
+    <img src="logo.jpg" alt="Logo" class="profile-logo">
+
+    <div>
+        <h1>Antonia Reul</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>    
+    </div>
 </header>
 
+.site-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+    
 <div class="container">
     <section id="about">
         <h2>About Me</h2>
