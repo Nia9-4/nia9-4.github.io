@@ -14,20 +14,23 @@
             background-color: #f4f4f9;
         }
         header {
-            font-family: Garamont, serif;
+            font-family: Garamond, serif;
             background: #6495ED;
             color: #F0F8FF;
             text-align: center;
             padding: 1em 0;
         }
         .site-header {
+            width: 100%;
+        }
+        .header-inner {
             width: 80%;
             margin: 0 auto;
             position: relative;
         }
         .profile-logo {
             position: absolute;
-            top: 0px;
+            top: 10px;
             left: 0px;
             width: 150px;
             height: 150px;
@@ -71,7 +74,7 @@
             color: #333;
         }
         footer {
-            font-family: Garamont, serif;
+            font-family: Garamond, serif;
             background-color: #6495ED;
             color: #fff;
             text-align: center;
@@ -85,17 +88,19 @@
 <body>
 
 <header class="site-header">
-    <img src="logo.jpg" alt="Logo" class="profile-logo">
-
-    <div>
-        <h1>Antonia Reul</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>    
+    <div class="header-inner">
+        <img src="logo.jpg" alt="Logo" class="profile-logo">
+    
+        <div>
+            <h1>Antonia Reul</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>   
+        </div>
     </div>
 </header>
 
