@@ -17,36 +17,34 @@
             background-color: #F8F6EF;
             color: #263544;
         }
-        header {
+        .header {
             position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%
             font-family: Garamond, serif;
             background: #DCEAF7;
             color: #183B56;
             padding: 1.5em 0;
-        }
-        .site-header {
-            width: 100%;
-            position: relative;
         }
         .header-inner {
             width: 80%;
             margin: 0 auto;
             display: flex;
             align-items: center;
-            gap: 20 px;
+            gap: 20px;
             position: relative;
         }
         .profile-logo {
-            position: absolute;
-            top: 15px;
-            right: 0;
-            transform: translateY(-50%);
             width: 100px;
             height: 100px;
             border-radius: 50%;
             object-fit: cover;
+            margin-right: auto;
         }
         .header-content h1 {
+            flex: 1;
             font-family: Garamond, serif;
             font-size: 2.7rem;
             font-weight: normal;
